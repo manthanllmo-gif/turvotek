@@ -60,7 +60,7 @@
     
     <div class="container footer-bottom">
         <div>
-            &copy; <?php echo date('Y'); ?> Turvotek Green Energy Pvt. Ltd. All rights reserved.
+            &copy; <?php echo date('Y'); ?> Turvotek Green Energy Pvt. Ltd. All rights reserved. | Developed by <a href="https://manthanllm.com" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; font-weight: 500; transition: color 0.2s;" onmouseover="this.style.color='var(--primary-bright)'" onmouseout="this.style.color='inherit'">manthan ai & it services</a>
         </div>
         <div style="display: flex; gap: var(--spacing-md);">
             <a href="<?php echo esc_url( home_url( '/privacy-policy' ) ); ?>" style="color: var(--graphite);">Privacy Policy</a>
