@@ -50,6 +50,13 @@ define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 
+/** Dynamic WP_HOME and WP_SITEURL to support any protocol/domain dynamically */
+if ( isset( $_SERVER['HTTP_HOST'] ) ) {
+	$http_protocol = ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] === 'on' ) ? 'https' : 'http';
+	define( 'WP_HOME', $http_protocol . '://' . $_SERVER['HTTP_HOST'] );
+	define( 'WP_SITEURL', $http_protocol . '://' . $_SERVER['HTTP_HOST'] );
+}
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
