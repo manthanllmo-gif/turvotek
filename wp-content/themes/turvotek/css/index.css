@@ -3479,8 +3479,11 @@ body:not(.home) .container.section {
   width: 100% !important;
 }
 
-.woocommerce div.product .woocommerce-tabs {
+.woocommerce div.product .woocommerce-tabs,
+.woocommerce div.product .related,
+.woocommerce div.product .upsells {
   grid-column: 1 / -1;
+  width: 100%;
 }
 
 /* ── Product title ──────────────────────────────────────────────── */
