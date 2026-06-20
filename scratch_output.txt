@@ -1,0 +1,351 @@
+--- Full Loop Bar Content ---
+<div class="woocommerce-before-shop-loop-bar"><div class="woocommerce-notices-wrapper"></div><form class="woocommerce-ordering" method="get">
+		<select
+		name="orderby"
+		class="orderby"
+					aria-label="Shop order"
+			>
+					<option value="menu_order"  selected='selected'>Default sorting</option>
+					<option value="popularity" >Sort by popularity</option>
+					<option value="rating" >Sort by average rating</option>
+					<option value="date" >Sort by latest</option>
+					<option value="price" >Sort by price: low to high</option>
+					<option value="price-desc" >Sort by price: high to low</option>
+			</select>
+	<input type="hidden" name="paged" value="1" />
+	</form>
+<div class="shop-result-count"><span class="result-count-text">Showing <strong>1&ndash;16</strong> of <strong>83</strong> products</span></div></div>
+				<ul class="products columns-4">
+
+																					<li class="product type-product post-81 status-publish first instock product_cat-mw-project-accessories shipping-taxable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/ac-cable-3c-x-300-aluminium-armoured/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" fetchpriority="high" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="(max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">AC Cable 3C x 300 Aluminium Armoured</h2>
+	<span class="price"><span class="amount" style="color: var(--primary); font-weight: 700;">Rate on Request</span></span>
+</a><a href="https://wa.me/919425011303?text=Hello%2C%20I%20am%20interested%20in%20the%20product%3A%20AC%20Cable%203C%20x%20300%20Aluminium%20Armoured.%20Could%20you%20please%20share%20the%20pricing%20and%20details%3F" class="button product_type_simple add_to_cart_button" target="_blank" rel="noopener noreferrer" style="background-color: #25D366 !important; color: #fff !important; border: none !important; display: inline-flex; align-items: center; gap: 8px; justify-content: center; font-weight: 600;"><svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/></svg> Rate on Request</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_81" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-21 status-publish instock product_cat-solar-wires-copper has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/ac-cable-4-sq-mm-1-core/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/ac cables-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="AC Cable 4 sq mm 1 core" decoding="async" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/ac%20cables-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/ac%20cables-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/ac%20cables-100x100.png 100w" sizes="(max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">AC Cable 4 sq mm 1 core</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>56.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=21" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_21" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="21" data-product_sku="SW-AC-4-1C" aria-label="Add to cart: &ldquo;AC Cable 4 sq mm 1 core&rdquo;" rel="nofollow" data-success_message="&ldquo;AC Cable 4 sq mm 1 core&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_21" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-23 status-publish instock product_cat-solar-wires-copper shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/ac-cable-4-sq-mm-2-core/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="(max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">AC Cable 4 sq mm 2 Core</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>123.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=23" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_23" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="23" data-product_sku="SW-AC-4-2C" aria-label="Add to cart: &ldquo;AC Cable 4 sq mm 2 Core&rdquo;" rel="nofollow" data-success_message="&ldquo;AC Cable 4 sq mm 2 Core&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_23" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-22 status-publish last instock product_cat-solar-wires-copper shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/ac-cable-6-sq-mm-4-core/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">AC Cable 6 sq mm 4 core</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>345.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=22" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_22" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="22" data-product_sku="SW-AC-6-4C" aria-label="Add to cart: &ldquo;AC Cable 6 sq mm 4 core&rdquo;" rel="nofollow" data-success_message="&ldquo;AC Cable 6 sq mm 4 core&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_22" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-43 status-publish first instock product_cat-acdb-dcdb has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/acdb-dcdb-combo-1-to-6-kw-single-phase-all-switchgear-including-fuse-from-havells/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb box single phase(havells switchgear)-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="ACDB / DCDB Combo - 1 to 6 KW, Single Phase - All Switchgear including Fuse from Havells" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb%20box%20single%20phase(havells%20switchgear)-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb%20box%20single%20phase(havells%20switchgear)-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb%20box%20single%20phase(havells%20switchgear)-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">ACDB / DCDB Combo &#8211; 1 to 6 KW, Single Phase &#8211; All Switchgear including Fuse from Havells</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>2,240.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=43" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_43" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="43" data-product_sku="DB-COMBO-16KW" aria-label="Add to cart: &ldquo;ACDB / DCDB Combo - 1 to 6 KW, Single Phase - All Switchgear including Fuse from Havells&rdquo;" rel="nofollow" data-success_message="&ldquo;ACDB / DCDB Combo - 1 to 6 KW, Single Phase - All Switchgear including Fuse from Havells&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_43" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-46 status-publish instock product_cat-acdb-dcdb shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/acdb-box-3-phase/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">ACDB Box &#8211; 3 Phase</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>2,750.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=46" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_46" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="46" data-product_sku="DB-ACDB-3P" aria-label="Add to cart: &ldquo;ACDB Box - 3 Phase&rdquo;" rel="nofollow" data-success_message="&ldquo;ACDB Box - 3 Phase&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_46" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-44 status-publish instock product_cat-acdb-dcdb has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/acdb-box-1kw-to-6-kw-havells-components-including-havells-fuse/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb bok 1kw to 6kw (havells)-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="ACDB Box 1Kw to 6 Kw - Havells Components including Havells Fuse" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb%20bok%201kw%20to%206kw%20(havells)-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb%20bok%201kw%20to%206kw%20(havells)-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/acdb%20bok%201kw%20to%206kw%20(havells)-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">ACDB Box 1Kw to 6 Kw &#8211; Havells Components including Havells Fuse</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>1,200.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=44" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_44" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="44" data-product_sku="DB-ACDB-16KW" aria-label="Add to cart: &ldquo;ACDB Box 1Kw to 6 Kw - Havells Components including Havells Fuse&rdquo;" rel="nofollow" data-success_message="&ldquo;ACDB Box 1Kw to 6 Kw - Havells Components including Havells Fuse&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_44" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-60 status-publish last instock product_cat-solar-structure-accessories shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/anchor-fastener-4-inch/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Anchor Fastener &#8211; 4 inch</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>14.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=60" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_60" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="60" data-product_sku="ST-AF-4" aria-label="Add to cart: &ldquo;Anchor Fastener - 4 inch&rdquo;" rel="nofollow" data-success_message="&ldquo;Anchor Fastener - 4 inch&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_60" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-89 status-publish first instock product_cat-fencing-solutions has-post-thumbnail shipping-taxable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/barbed-wire-gi/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/barbed wire-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Barbed Wire (GI)" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/barbed%20wire-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/barbed%20wire-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/barbed%20wire-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Barbed Wire (GI)</h2>
+	<span class="price"><span class="amount" style="color: var(--primary); font-weight: 700;">Rate on Request</span></span>
+</a><a href="https://wa.me/919425011303?text=Hello%2C%20I%20am%20interested%20in%20the%20product%3A%20Barbed%20Wire%20%28GI%29.%20Could%20you%20please%20share%20the%20pricing%20and%20details%3F" class="button product_type_simple add_to_cart_button" target="_blank" rel="noopener noreferrer" style="background-color: #25D366 !important; color: #fff !important; border: none !important; display: inline-flex; align-items: center; gap: 8px; justify-content: center; font-weight: 600;"><svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/></svg> Rate on Request</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_89" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-57 status-publish instock product_cat-solar-structure-accessories shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/base-plate-14050/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Base Plate 140*50</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>160.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=57" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_57" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="57" data-product_sku="ST-BP-14050" aria-label="Add to cart: &ldquo;Base Plate 140*50&rdquo;" rel="nofollow" data-success_message="&ldquo;Base Plate 140*50&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_57" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-56 status-publish instock product_cat-solar-structure-accessories has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/base-plate-41-41/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/base plate purlin-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Base Plate 41 * 41" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/base%20plate%20purlin-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/base%20plate%20purlin-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/base%20plate%20purlin-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Base Plate 41 * 41</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>85.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=56" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_56" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="56" data-product_sku="ST-BP-4141" aria-label="Add to cart: &ldquo;Base Plate 41 * 41&rdquo;" rel="nofollow" data-success_message="&ldquo;Base Plate 41 * 41&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_56" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-55 status-publish last instock product_cat-solar-structure-accessories shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/base-plate-80-40/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Base Plate 80 * 40</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>95.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=55" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_55" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="55" data-product_sku="ST-BP-8040" aria-label="Add to cart: &ldquo;Base Plate 80 * 40&rdquo;" rel="nofollow" data-success_message="&ldquo;Base Plate 80 * 40&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_55" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-90 status-publish first instock product_cat-fencing-solutions has-post-thumbnail shipping-taxable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/binding-wire-gi/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/binding wire-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Binding Wire (GI)" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/binding%20wire-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/binding%20wire-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/binding%20wire-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Binding Wire (GI)</h2>
+	<span class="price"><span class="amount" style="color: var(--primary); font-weight: 700;">Rate on Request</span></span>
+</a><a href="https://wa.me/919425011303?text=Hello%2C%20I%20am%20interested%20in%20the%20product%3A%20Binding%20Wire%20%28GI%29.%20Could%20you%20please%20share%20the%20pricing%20and%20details%3F" class="button product_type_simple add_to_cart_button" target="_blank" rel="noopener noreferrer" style="background-color: #25D366 !important; color: #fff !important; border: none !important; display: inline-flex; align-items: center; gap: 8px; justify-content: center; font-weight: 600;"><svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/></svg> Rate on Request</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_90" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-179 status-publish instock product_cat-balance-of-system has-post-thumbnail shipping-taxable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/bootlace-ferrule-bos/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/bootlace-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Bootlace Ferrule (BoS)" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/bootlace-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/bootlace-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/bootlace-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Bootlace Ferrule (BoS)</h2>
+	<span class="price"><span class="amount" style="color: var(--primary); font-weight: 700;">Rate on Request</span></span>
+</a><a href="https://wa.me/919425011303?text=Hello%2C%20I%20am%20interested%20in%20the%20product%3A%20Bootlace%20Ferrule%20%28BoS%29.%20Could%20you%20please%20share%20the%20pricing%20and%20details%3F" class="button product_type_simple add_to_cart_button" target="_blank" rel="noopener noreferrer" style="background-color: #25D366 !important; color: #fff !important; border: none !important; display: inline-flex; align-items: center; gap: 8px; justify-content: center; font-weight: 600;"><svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/></svg> Rate on Request</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_179" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-181 status-publish instock product_cat-balance-of-system has-post-thumbnail shipping-taxable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/cable-gland-bos/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/2026/06/cable gland-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Cable Gland (BoS)" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/2026/06/cable%20gland-300x300.png 300w, http://127.0.0.1:8080/wp-content/uploads/2026/06/cable%20gland-150x150.png 150w, http://127.0.0.1:8080/wp-content/uploads/2026/06/cable%20gland-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Cable Gland (BoS)</h2>
+	<span class="price"><span class="amount" style="color: var(--primary); font-weight: 700;">Rate on Request</span></span>
+</a><a href="https://wa.me/919425011303?text=Hello%2C%20I%20am%20interested%20in%20the%20product%3A%20Cable%20Gland%20%28BoS%29.%20Could%20you%20please%20share%20the%20pricing%20and%20details%3F" class="button product_type_simple add_to_cart_button" target="_blank" rel="noopener noreferrer" style="background-color: #25D366 !important; color: #fff !important; border: none !important; display: inline-flex; align-items: center; gap: 8px; justify-content: center; font-weight: 600;"><svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/></svg> Rate on Request</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_181" class="screen-reader-text">
+			</span>
+</li>
+																	<li class="product type-product post-35 status-publish last instock product_cat-other-accessories shipping-taxable purchasable product-type-simple">
+	<a href="http://127.0.0.1:8080/product/cable-tie-150-mm/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp" class="woocommerce-placeholder wp-post-image" alt="Placeholder" decoding="async" loading="lazy" srcset="http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-300x300.webp 300w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-100x100.webp 100w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-600x600.webp 600w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-1024x1024.webp 1024w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-150x150.webp 150w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder-768x768.webp 768w, http://127.0.0.1:8080/wp-content/uploads/woocommerce-placeholder.webp 1200w" sizes="auto, (max-width: 300px) 100vw, 300px" /><h2 class="woocommerce-loop-product__title">Cable Tie 150 MM</h2>
+	<span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#8377;</span>65.00</bdi></span></span>
+</a><a href="/shop/?add-to-cart=35" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_35" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="35" data-product_sku="AC-CT-150" aria-label="Add to cart: &ldquo;Cable Tie 150 MM&rdquo;" rel="nofollow" data-success_message="&ldquo;Cable Tie 150 MM&rdquo; has been added to your cart" role="button">Add to cart</a>	<span id="woocommerce_loop_add_to_cart_link_describedby_35" class="screen-reader-text">
+			</span>
+</li>
+									
+				</ul>
+
+				<nav class="woocommerce-pagination" aria-label="Product Pagination">
+	<ul class='page-numbers'>
+	<li><span aria-label="Page 1" aria-current="page" class="page-numbers current">1</span></li>
+	<li><a aria-label="Page 2" class="page-numbers" href="http://127.0.0.1:8080/shop/page/2/">2</a></li>
+	<li><a aria-label="Page 3" class="page-numbers" href="http://127.0.0.1:8080/shop/page/3/">3</a></li>
+	<li><a aria-label="Page 4" class="page-numbers" href="http://127.0.0.1:8080/shop/page/4/">4</a></li>
+	<li><a aria-label="Page 5" class="page-numbers" href="http://127.0.0.1:8080/shop/page/5/">5</a></li>
+	<li><a aria-label="Page 6" class="page-numbers" href="http://127.0.0.1:8080/shop/page/6/">6</a></li>
+	<li><a class="next page-numbers" href="http://127.0.0.1:8080/shop/page/2/">›</a></li>
+</ul>
+</nav>
+
+				</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Wrap WooCommerce pagination in premium container
+    const pagination = document.querySelector('.woocommerce-pagination');
+    if (pagination) {
+        const ul = pagination.querySelector('ul.page-numbers');
+        if (ul) {
+            ul.classList.add('premium-page-numbers');
+        }
+    }
+});
+</script>
+
+<!-- CTA Banner - Ready to Transition -->
+<section class="cta-band">
+    <div class="container cta-band-inner">
+        <div class="cta-band-text">
+            <h2 class="cta-band-title">Ready to Transition to Solar?</h2>
+            <p class="cta-band-desc">Speak directly with our technical sales engineers for tailored solutions, panel selections, and structural design calculations.</p>
+        </div>
+        <a href="http://127.0.0.1:8080/contact" class="btn btn-primary cta-band-btn">Contact Us</a>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="container footer-grid">
+        <div>
+            <h3>TURVOTEK GREEN ENERGY</h3>
+            <p style="color: #a0aabf; line-height: 1.6; margin-bottom: 20px;">
+                Leading manufacturer of ACDB/DCDB boxes, customized mounting structures, and authorized Balance of System (BoS) components distributor.
+            </p>
+            <p style="font-weight: 600; color: #fff;">Smart Components for <span class="rotating-text" data-words='["Smarter Energy","Sustainable Future","Green Tomorrow","Clean Power","Net Zero"]'>Smarter Energy</span></p>
+        </div>
+        
+        <div>
+            <h3>Quick Links</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; line-height: 2;">
+                <li><a href="http://127.0.0.1:8080/" style="color: #a0aabf;">Home</a></li>
+                <li><a href="http://127.0.0.1:8080/shop/" style="color: #a0aabf;">Product Catalog</a></li>
+                <li><a href="http://127.0.0.1:8080/about" style="color: #a0aabf;">About Us</a></li>
+                <li><a href="http://127.0.0.1:8080/founders" style="color: #a0aabf;">Founders</a></li>
+                <li><a href="http://127.0.0.1:8080/contact" style="color: #a0aabf;">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>Partnerships & Brands</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; color: #a0aabf;">
+                <li>✓ Authorized Havells Switchgear Dealer</li>
+                <li>✓ Authorized Statcon Energiaa Distributor</li>
+                <li>✓ Partner: Mittal Plastomet Ltd (Mittal Solar)</li>
+                <li>✓ Technology Partner: SM Engineering</li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3>Get In Touch</h3>
+            <ul class="contact-info-list" style="color: #a0aabf;">
+                <li>
+                    <span>📍</span> 
+                    <span>A61, Jai Bhavani Society, Canal Road, Bawadiya Kalan, Bhopal, Madhya Pradesh 462039</span>
+                </li>
+                <li>
+                    <span>📧</span>
+                    <span>
+                        <a href="mailto:info@turvotek.com" style="color: #a0aabf;">info@turvotek.com</a><br>
+                        <a href="mailto:turvotekgreen@gmail.com" style="color: #a0aabf;">turvotekgreen@gmail.com</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="container footer-bottom">
+        <div>
+            &copy; 2026 Turvotek Green Energy Pvt. Ltd. All rights reserved.
+        </div>
+        <div style="display: flex; gap: var(--spacing-md);">
+            <a href="http://127.0.0.1:8080/privacy-policy" style="color: var(--graphite);">Privacy Policy</a>
+            <a href="http://127.0.0.1:8080/terms-conditions" style="color: var(--graphite);">Terms & Conditions</a>
+            <a href="http://127.0.0.1:8080/refund-policy" style="color: var(--graphite);">Refund & Cancellation</a>
+        </div>
+    </div>
+</footer>
+
+<!-- Floating WhatsApp Chat Button (desktop) -->
+<a href="https://wa.me/919425011303" class="whatsapp-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/>
+    </svg>
+</a>
+
+<!-- Go to Top Button -->
+<button class="go-to-top-btn" id="goToTopBtn" aria-label="Go to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+</button>
+
+<!-- Mobile Bottom Navigation -->
+<nav class="mobile-bottom-nav" id="mobileBottomNav">
+    <a href="http://127.0.0.1:8080/" class="mb-nav-item">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span>Home</span>
+    </a>
+    <a href="http://127.0.0.1:8080/shop/" class="mb-nav-item">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span>Catalog</span>
+    </a>
+    <a href="https://wa.me/919425011303" target="_blank" rel="noopener noreferrer" class="mb-nav-item mb-nav-whatsapp">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/>
+        </svg>
+        <span>WhatsApp</span>
+    </a>
+    <a href="http://127.0.0.1:8080/about" class="mb-nav-item">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        <span>About</span>
+    </a>
+    <a href="http://127.0.0.1:8080/contact" class="mb-nav-item">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <span>Contact</span>
+    </a>
+</nav>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var goToTopBtn = document.getElementById('goToTopBtn');
+    
+    if (goToTopBtn) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 400) {
+                goToTopBtn.classList.add('visible');
+            } else {
+                goToTopBtn.classList.remove('visible');
+            }
+        });
+        
+        goToTopBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    // Rotating Text & Image Animation
+    var rotatingElements = document.querySelectorAll('.rotating-text');
+    rotatingElements.forEach(function(el) {
+        var words, images;
+        try {
+            words = JSON.parse(el.getAttribute('data-words'));
+            images = JSON.parse(el.getAttribute('data-images'));
+        } catch(e) { return; }
+        if (!words || words.length < 2) return;
+        var index = 0;
+        var currentText = el.textContent.trim();
+        var startIndex = words.indexOf(currentText);
+        if (startIndex !== -1) index = startIndex;
+        var imageId = el.getAttribute('data-image-id') || 'rotatingShowcaseImage';
+        var targetImg = document.getElementById(imageId);
+
+        function rotateWord() {
+            index = (index + 1) % words.length;
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(6px)';
+            el.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            if (targetImg) {
+                targetImg.style.opacity = '0';
+                targetImg.style.transform = 'scale(0.95)';
+                targetImg.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            }
+            setTimeout(function() {
+                el.textContent = words[index];
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+                if (targetImg && images && images[index]) {
+                    targetImg.src = images[index];
+                    targetImg.style.opacity = '1';
+                    targetImg.style.transform = 'scale(1)';
+                }
+            }, 300);
+        }
+
+        el.addEventListener('transitionend', function() {
+            el.style.transition = '';
+            el.style.transform = '';
+        });
+
+        setInterval(rotateWord, 3500);
+    });
+});
+</script>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/turvotek/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+	<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script id="sourcebuster-js-js" src="http://127.0.0.1:8080/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.8.1"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"http://127.0.0.1:8080/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+</script>
+<script id="wc-order-attribution-js" src="http://127.0.0.1:8080/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.8.1"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"http://127.0.0.1:8080/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=http://127.0.0.1:8080/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>
+
+
