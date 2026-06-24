@@ -10,16 +10,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<!-- Utility Strip -->
-<div class="utility-strip">
-    <div>
-        <span>📍 A61, Bawadiya Kalan, Bhopal 462039</span>
-        <span style="margin-left: 20px;">📧 <a href="mailto:info@turvotek.com">info@turvotek.com</a></span>
-    </div>
-    <div>
-        <span>Authorized Havells Dealer & Statcon Energiaa Distributor</span>
-    </div>
-</div>
+
 
 <!-- Main Top Navbar -->
 <header class="top-navbar">
@@ -124,6 +115,9 @@
             } ?>
         </div>
     </div>
+    <div class="side-cart-footer">
+        <button class="btn btn-outline continue-shopping-btn" id="continue-shopping-btn">Continue Shopping</button>
+    </div>
 </div>
 <div class="cart-overlay" id="cart-overlay"></div>
 
@@ -194,6 +188,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (closeCartBtn) {
         closeCartBtn.addEventListener('click', closeMiniCart);
+    }
+    const continueShoppingBtn = document.getElementById('continue-shopping-btn');
+    if (continueShoppingBtn) {
+        continueShoppingBtn.addEventListener('click', closeMiniCart);
     }
     if (cartOverlay) {
         cartOverlay.addEventListener('click', closeMiniCart);

@@ -807,6 +807,59 @@ $upload_url = $upload_dir['baseurl'];
     </div>
 </section>
 
+<!-- YouTube Videos Section -->
+<?php
+$yt_title  = get_option( 'turvotek_youtube_title', 'Featured Projects & Installations' );
+$yt_desc   = get_option( 'turvotek_youtube_desc', 'Watch our commercial solar energy installations and learn more about our state-of-the-art Balance of System components in action.' );
+$yt_link_1 = get_option( 'turvotek_youtube_link_1', 'https://www.youtube.com/watch?v=1kUE0BZtTRc' );
+$yt_link_2 = get_option( 'turvotek_youtube_link_2', 'https://www.youtube.com/watch?v=xKxrkht7CpY' );
+
+$yt_id_1 = function_exists( 'turvotek_get_youtube_id' ) ? turvotek_get_youtube_id( $yt_link_1 ) : '';
+$yt_id_2 = function_exists( 'turvotek_get_youtube_id' ) ? turvotek_get_youtube_id( $yt_link_2 ) : '';
+
+if ( ! empty( $yt_id_1 ) || ! empty( $yt_id_2 ) ) :
+?>
+<section class="section youtube-videos-section" style="background-color: var(--canvas); padding: 80px 0;">
+    <div class="container">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center; margin-bottom: var(--spacing-xxl);">
+            <div style="font-size: 11px; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: var(--spacing-xxs);">Videos</div>
+            <h2 style="font-size: 38px; font-family: var(--font-display); font-weight: 700; color: var(--text);"><?php echo esc_html( $yt_title ); ?></h2>
+            <?php if ( ! empty( $yt_desc ) ) : ?>
+                <p style="font-size: 16px; color: var(--graphite); line-height: 1.6; margin-top: 10px;">
+                    <?php echo esc_html( $yt_desc ); ?>
+                </p>
+            <?php endif; ?>
+        </div>
+
+        <div class="youtube-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px;">
+            <?php if ( ! empty( $yt_id_1 ) ) : ?>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube-nocookie.com/embed/<?php echo esc_attr( $yt_id_1 ); ?>?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info" style="padding: var(--spacing-md);">
+                        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 8px 0; color: var(--ink-deep);">Installation Highlights</h3>
+                        <p style="font-size: 14px; color: var(--graphite); line-height: 1.5; margin: 0;">Explore how our components are manufactured and deployed across various client locations.</p>
+                    </div>
+                </div>
+            <?php endif; ?>
+
+            <?php if ( ! empty( $yt_id_2 ) ) : ?>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube-nocookie.com/embed/<?php echo esc_attr( $yt_id_2 ); ?>?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info" style="padding: var(--spacing-md);">
+                        <h3 style="font-size: 18px; font-weight: 600; margin: 0 0 8px 0; color: var(--ink-deep);">Technical Walkthrough & QA</h3>
+                        <p style="font-size: 14px; color: var(--graphite); line-height: 1.5; margin: 0;">A detailed look at the durability, compliance, and quality checks of our solar mount structures.</p>
+                    </div>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</section>
+<?php endif; ?>
+
 <!-- Latest Insights & News -->
 <section class="section" style="background-color: var(--cloud); padding: 80px 0;">
     <div class="container">

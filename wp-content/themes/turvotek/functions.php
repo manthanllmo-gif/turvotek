@@ -679,3 +679,191 @@ function turvotek_hide_products_without_images_globally( $q ) {
 }
 add_action( 'pre_get_posts', 'turvotek_hide_products_without_images_globally', 99 );
 
+/**
+ * Register Turvotek Theme Settings Page (YouTube Settings)
+ */
+add_action( 'admin_menu', 'turvotek_theme_settings_menu' );
+function turvotek_theme_settings_menu() {
+    add_menu_page(
+        __( 'Theme Settings', 'turvotek' ),
+        __( 'Theme Settings', 'turvotek' ),
+        'manage_options',
+        'turvotek-settings',
+        'turvotek_theme_settings_page_html',
+        'dashicons-video-alt3',
+        59
+    );
+}
+
+add_action( 'admin_init', 'turvotek_theme_settings_init' );
+function turvotek_theme_settings_init() {
+    register_setting( 'turvotek_settings_group', 'turvotek_youtube_title' );
+    register_setting( 'turvotek_settings_group', 'turvotek_youtube_desc' );
+    register_setting( 'turvotek_settings_group', 'turvotek_youtube_link_1' );
+    register_setting( 'turvotek_settings_group', 'turvotek_youtube_link_2' );
+    register_setting( 'turvotek_settings_group', 'turvotek_contact_phone' );
+    register_setting( 'turvotek_settings_group', 'turvotek_contact_whatsapp' );
+    register_setting( 'turvotek_settings_group', 'turvotek_contact_instagram' );
+    register_setting( 'turvotek_settings_group', 'turvotek_contact_email' );
+}
+
+function turvotek_theme_settings_page_html() {
+    $active_tab = isset( $_GET[ 'tab' ] ) ? sanitize_text_field( $_GET[ 'tab' ] ) : 'contact_settings';
+    ?>
+    <div class="wrap">
+        <h1><?php esc_html_e( 'Turvotek Theme Settings', 'turvotek' ); ?></h1>
+        <h2 class="nav-tab-wrapper">
+            <a href="?page=turvotek-settings&tab=contact_settings" class="nav-tab <?php echo $active_tab == 'contact_settings' ? 'nav-tab-active' : ''; ?>"><?php esc_html_e( 'Socials & Contacts', 'turvotek' ); ?></a>
+            <a href="?page=turvotek-settings&tab=youtube_settings" class="nav-tab <?php echo $active_tab == 'youtube_settings' ? 'nav-tab-active' : ''; ?>"><?php esc_html_e( 'YouTube Videos', 'turvotek' ); ?></a>
+        </h2>
+
+        <form action="options.php" method="post" style="margin-top: 20px; background: #fff; padding: 20px; border: 1px solid #ccd0d4; border-radius: 4px; max-width: 800px;">
+            <?php
+            settings_fields( 'turvotek_settings_group' );
+            
+            if ( $active_tab == 'contact_settings' ) {
+                ?>
+                <h2><?php esc_html_e( 'Social & Contact Sidebar Settings', 'turvotek' ); ?></h2>
+                <p><?php esc_html_e( 'Configure the links and contact information displayed in the floating side panel across the site.', 'turvotek' ); ?></p>
+                <table class="form-table">
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'Contact Phone Number', 'turvotek' ); ?></th>
+                        <td>
+                            <input type="text" name="turvotek_contact_phone" value="<?php echo esc_attr( get_option( 'turvotek_contact_phone', '+919425011303' ) ); ?>" class="regular-text" placeholder="+91 94250 11303" />
+                            <p class="description"><?php esc_html_e( 'Main phone number for call link.', 'turvotek' ); ?></p>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'WhatsApp Number/Link', 'turvotek' ); ?></th>
+                        <td>
+                            <input type="text" name="turvotek_contact_whatsapp" value="<?php echo esc_attr( get_option( 'turvotek_contact_whatsapp', '919425011303' ) ); ?>" class="regular-text" placeholder="e.g. 919425011303 (include country code, no + or spaces)" />
+                            <p class="description"><?php esc_html_e( 'Phone number used for direct WhatsApp chat initiation.', 'turvotek' ); ?></p>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'Instagram Link', 'turvotek' ); ?></th>
+                        <td>
+                            <input type="url" name="turvotek_contact_instagram" value="<?php echo esc_url( get_option( 'turvotek_contact_instagram', 'https://www.instagram.com/turvotek/' ) ); ?>" class="regular-text" placeholder="https://www.instagram.com/yourhandle" />
+                            <p class="description"><?php esc_html_e( 'Full URL to your Instagram profile.', 'turvotek' ); ?></p>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'Email Address', 'turvotek' ); ?></th>
+                        <td>
+                            <input type="email" name="turvotek_contact_email" value="<?php echo esc_attr( get_option( 'turvotek_contact_email', 'info@turvotek.com' ) ); ?>" class="regular-text" placeholder="info@yourdomain.com" />
+                            <p class="description"><?php esc_html_e( 'Email address for quick-mail button.', 'turvotek' ); ?></p>
+                        </td>
+                    </tr>
+                </table>
+                <?php
+            } else {
+                ?>
+                <h2><?php esc_html_e( 'YouTube Homepage Settings', 'turvotek' ); ?></h2>
+                <p><?php esc_html_e( 'Manage the featured YouTube videos appearing above the blogs on the front page.', 'turvotek' ); ?></p>
+                <table class="form-table">
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'YouTube Video Section Title', 'turvotek' ); ?></th>
+                        <td>
+                            <input type="text" name="turvotek_youtube_title" value="<?php echo esc_attr( get_option( 'turvotek_youtube_title', 'Featured Projects & Installations' ) ); ?>" class="regular-text" />
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'YouTube Video Section Description', 'turvotek' ); ?></th>
+                        <td>
+                            <textarea name="turvotek_youtube_desc" rows="3" cols="50" class="large-text"><?php echo esc_textarea( get_option( 'turvotek_youtube_desc', 'Watch our commercial solar energy installations and learn more about our state-of-the-art Balance of System components in action.' ) ); ?></textarea>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'YouTube Video Link 1', 'turvotek' ); ?></th>
+                        <td>
+                            <input type="url" name="turvotek_youtube_link_1" value="<?php echo esc_url( get_option( 'turvotek_youtube_link_1', 'https://www.youtube.com/watch?v=1kUE0BZtTRc' ) ); ?>" class="regular-text" placeholder="https://www.youtube.com/watch?v=..." />
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <th scope="row"><?php esc_html_e( 'YouTube Video Link 2', 'turvotek' ); ?></th>
+                        <td>
+                            <input type="url" name="turvotek_youtube_link_2" value="<?php echo esc_url( get_option( 'turvotek_youtube_link_2', 'https://www.youtube.com/watch?v=xKxrkht7CpY' ) ); ?>" class="regular-text" placeholder="https://www.youtube.com/watch?v=..." />
+                        </td>
+                    </tr>
+                </table>
+                <?php
+            }
+            ?>
+            <!-- Include hidden fields for tabs that are not currently active so options are not overwritten or lost when saving -->
+            <?php if ( $active_tab == 'contact_settings' ) : ?>
+                <input type="hidden" name="turvotek_youtube_title" value="<?php echo esc_attr( get_option( 'turvotek_youtube_title', 'Featured Projects & Installations' ) ); ?>" />
+                <input type="hidden" name="turvotek_youtube_desc" value="<?php echo esc_attr( get_option( 'turvotek_youtube_desc', 'Watch our commercial solar energy installations and learn more about our state-of-the-art Balance of System components in action.' ) ); ?>" />
+                <input type="hidden" name="turvotek_youtube_link_1" value="<?php echo esc_url( get_option( 'turvotek_youtube_link_1', 'https://www.youtube.com/watch?v=1kUE0BZtTRc' ) ); ?>" />
+                <input type="hidden" name="turvotek_youtube_link_2" value="<?php echo esc_url( get_option( 'turvotek_youtube_link_2', 'https://www.youtube.com/watch?v=xKxrkht7CpY' ) ); ?>" />
+            <?php else : ?>
+                <input type="hidden" name="turvotek_contact_phone" value="<?php echo esc_attr( get_option( 'turvotek_contact_phone', '+919425011303' ) ); ?>" />
+                <input type="hidden" name="turvotek_contact_whatsapp" value="<?php echo esc_attr( get_option( 'turvotek_contact_whatsapp', '919425011303' ) ); ?>" />
+                <input type="hidden" name="turvotek_contact_instagram" value="<?php echo esc_url( get_option( 'turvotek_contact_instagram', 'https://www.instagram.com/turvotek/' ) ); ?>" />
+                <input type="hidden" name="turvotek_contact_email" value="<?php echo esc_attr( get_option( 'turvotek_contact_email', 'info@turvotek.com' ) ); ?>" />
+            <?php endif; ?>
+
+            <?php submit_button(); ?>
+        </form>
+    </div>
+    <?php
+}
+
+/**
+ * Extract YouTube ID from URL
+ */
+function turvotek_get_youtube_id( $url ) {
+    $video_id = '';
+    if ( preg_match( '%(?:youtube(?:-nocookie)?\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', $url, $match ) ) {
+        $video_id = $match[1];
+    }
+    return $video_id;
+}
+
+/**
+ * Customize WooCommerce shipping label for free shipping method
+ */
+add_filter( 'woocommerce_cart_shipping_method_full_label', 'turvotek_customize_shipping_label', 10, 2 );
+function turvotek_customize_shipping_label( $label, $method ) {
+    if ( 'free_shipping' === $method->get_method_id() ) {
+        $label = 'Shipping to be paid at the time of delivery: <span class="amount" style="font-weight: 600; color: var(--primary);">extra</span>';
+    }
+    return $label;
+}
+
+/**
+ * Customize WooCommerce shipping rate label (for Block-based APIs)
+ */
+add_filter( 'woocommerce_shipping_rate_label', 'turvotek_custom_shipping_rate_label', 10, 2 );
+function turvotek_custom_shipping_rate_label( $label, $method ) {
+    if ( 'free_shipping' === $method->get_method_id() ) {
+        return 'Shipping to be paid at the time of delivery';
+    }
+    return $label;
+}
+
+add_filter( 'woocommerce_package_rates', 'turvotek_custom_package_rates', 10, 2 );
+function turvotek_custom_package_rates( $rates, $package ) {
+    foreach ( $rates as $rate_id => $rate ) {
+        if ( 'free_shipping' === $rate->method_id ) {
+            $rates[$rate_id]->label = 'Shipping to be paid at the time of delivery';
+        }
+    }
+    return $rates;
+}
+
+/**
+ * Filter text translation for WooCommerce blocks and widgets
+ */
+add_filter( 'gettext', 'turvotek_translate_shipping_text', 20, 3 );
+function turvotek_translate_shipping_text( $translated_text, $text, $domain ) {
+    if ( 'woocommerce' === $domain ) {
+        if ( 'Free shipping' === $text || 'Free Shipping' === $text ) {
+            $translated_text = 'Shipping to be paid at the time of delivery';
+        }
+    }
+    return $translated_text;
+}
+
+
+
+

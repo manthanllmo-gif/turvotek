@@ -176,6 +176,53 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<?php if ( is_front_page() || is_home() ) : ?>
+<!-- Floating Contact Sidebar -->
+<div class="floating-contact-bar" id="floatingContactBar">
+    <!-- Phone Call -->
+    <?php $phone = get_option( 'turvotek_contact_phone', '+919425011303' ); ?>
+    <a href="tel:<?php echo esc_attr( str_replace(' ', '', $phone) ); ?>" class="floating-contact-item contact-item-call" aria-label="Call Us">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="floating-contact-svg">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        <span>Call Us: <?php echo esc_html( $phone ); ?></span>
+    </a>
+
+    <!-- WhatsApp -->
+    <?php 
+    $wa_num = get_option( 'turvotek_contact_whatsapp', '919425011303' );
+    $wa_link = 'https://wa.me/' . preg_replace('/[^0-9]/', '', $wa_num);
+    ?>
+    <a href="<?php echo esc_url($wa_link); ?>" target="_blank" rel="noopener noreferrer" class="floating-contact-item contact-item-whatsapp" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="floating-contact-svg">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.458L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.03-5.114-2.905-6.989-1.874-1.873-4.354-2.903-6.994-2.903-5.441 0-9.865 4.422-9.87 9.865-.001 1.639.429 3.236 1.244 4.634L1.72 20.281l4.927-1.293zm11.578-4.782c-.3-.149-1.774-.875-2.046-.975-.272-.1-.469-.149-.667.15-.198.299-.767.974-.94 1.174-.173.199-.347.224-.648.075-.3-.15-1.266-.466-2.41-1.487-.89-.794-1.49-1.775-1.665-2.074-.173-.299-.018-.46.13-.609.135-.135.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.667-1.605-.913-2.197-.24-.578-.484-.5-.667-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.299-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.774-.726 2.022-1.429.247-.699.247-1.299.173-1.429-.074-.124-.272-.198-.57-.347z"/>
+        </svg>
+        <span>WhatsApp Chat</span>
+    </a>
+
+    <!-- Instagram -->
+    <?php $ig = get_option( 'turvotek_contact_instagram', 'https://www.instagram.com/turvotek/' ); ?>
+    <a href="<?php echo esc_url($ig); ?>" target="_blank" rel="noopener noreferrer" class="floating-contact-item contact-item-instagram" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="floating-contact-svg">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+        <span>Instagram</span>
+    </a>
+
+    <!-- Email -->
+    <?php $email = get_option( 'turvotek_contact_email', 'info@turvotek.com' ); ?>
+    <a href="mailto:<?php echo esc_attr($email); ?>" class="floating-contact-item contact-item-email" aria-label="Email Us">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="floating-contact-svg">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+        </svg>
+        <span>Email Us</span>
+    </a>
+</div>
+<?php endif; ?>
+
 <?php wp_footer(); ?>
 </body>
 </html>

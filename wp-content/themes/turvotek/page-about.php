@@ -28,6 +28,36 @@ get_header(); ?>
         </div>
     </div>
 
+    <!-- Core Values with celebrating wins background & glassmorphism -->
+    <div class="about-values-section" style="background-image: url('<?php echo esc_url( get_stylesheet_directory_uri() . '/images/founders_celebration.png' ); ?>');">
+        <div class="about-values-overlay"></div>
+        <div class="about-values-content">
+            <h2 class="about-values-title">Core Corporate Values</h2>
+            <div class="about-values-grid">
+                <div class="about-value-card">
+                    <div class="about-value-icon">💎</div>
+                    <h4>Quality First</h4>
+                    <p>Direct sourcing of premium components like Havells switchgear and structural steel.</p>
+                </div>
+                <div class="about-value-card">
+                    <div class="about-value-icon">🤝</div>
+                    <h4>Integrity</h4>
+                    <p>Transparency in pricing, material testing certifications, and weight integrity.</p>
+                </div>
+                <div class="about-value-card">
+                    <div class="about-value-icon">⚡</div>
+                    <h4>Innovation</h4>
+                    <p>Continuously optimizing distribution box sizing, layout efficiency, and path safety.</p>
+                </div>
+                <div class="about-value-card">
+                    <div class="about-value-icon">🌱</div>
+                    <h4>Sustainability</h4>
+                    <p>Powering eco-friendly energy structures with sustainable, low-impact operations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Interactive milestones timeline -->
     <div class="about-milestones-section">
         <div class="about-milestones-title">
@@ -117,36 +147,6 @@ get_header(); ?>
                 </div>
                 <div class="mfg-mosaic-item">
                     <img src="<?php echo esc_url( home_url( '/assetspictures/aboutus4.jfif' ) ); ?>" alt="Finished Products" class="mfg-mosaic-image">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Core Values with celebrating wins background & glassmorphism -->
-    <div class="about-values-section" style="background-image: url('<?php echo esc_url( get_stylesheet_directory_uri() . '/images/founders_celebration.png' ); ?>');">
-        <div class="about-values-overlay"></div>
-        <div class="about-values-content">
-            <h2 class="about-values-title">Core Corporate Values</h2>
-            <div class="about-values-grid">
-                <div class="about-value-card">
-                    <div class="about-value-icon">💎</div>
-                    <h4>Quality First</h4>
-                    <p>Direct sourcing of premium components like Havells switchgear and structural steel.</p>
-                </div>
-                <div class="about-value-card">
-                    <div class="about-value-icon">🤝</div>
-                    <h4>Integrity</h4>
-                    <p>Transparency in pricing, material testing certifications, and weight integrity.</p>
-                </div>
-                <div class="about-value-card">
-                    <div class="about-value-icon">⚡</div>
-                    <h4>Innovation</h4>
-                    <p>Continuously optimizing distribution box sizing, layout efficiency, and path safety.</p>
-                </div>
-                <div class="about-value-card">
-                    <div class="about-value-icon">🌱</div>
-                    <h4>Sustainability</h4>
-                    <p>Powering eco-friendly energy structures with sustainable, low-impact operations.</p>
                 </div>
             </div>
         </div>

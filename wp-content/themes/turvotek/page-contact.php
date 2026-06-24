@@ -30,9 +30,17 @@ get_header(); ?>
                         <span style="font-size: 24px; color: var(--primary);">📍</span>
                         <div>
                             <strong style="display: block; font-size: 16px; margin-bottom: 5px;">Office & Registered Address</strong>
-                            <span style="color: var(--graphite); font-size: 14px; line-height: 1.5;">
-                                A61, Jai Bhavani Society, Canal Road, Bawadiya Kalan, Bhopal, Madhya Pradesh 462039
+                            <span style="color: var(--graphite); font-size: 14px; line-height: 1.5; display: block;">
+                                Mittal Solar, Jai Bhawani, A-61, Phase 1, Tilak Nagar, Bawadiya Kalan, Gulmohar Colony, Bhopal, Madhya Pradesh 462026
                             </span>
+                            <a href="https://maps.app.goo.gl/dYci8KTthvQYo7Jd6" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--primary); font-weight: 600; text-decoration: none; margin-top: 8px;">
+                                <span>Open Directions</span>
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
                         </div>
                     </li>
                     <li style="margin-bottom: 25px; display: flex; gap: 15px; align-items: flex-start;">
@@ -94,6 +102,32 @@ get_header(); ?>
                     <button type="submit" class="btn btn-primary" style="padding: 0 30px;">Submit Query</button>
                 </div>
             </form>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <div style="margin-top: 60px; margin-bottom: 30px;">
+        <h2 style="font-size: 28px; margin-bottom: var(--spacing-lg);">Find Us on Google Maps</h2>
+        <div style="position: relative; border-radius: var(--rounded-xl); overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); border: 1px solid var(--hairline); height: 450px; background-color: var(--cloud);">
+            <!-- Iframe -->
+            <iframe 
+                src="https://maps.google.com/maps?q=Mittal%20Solar,%20Jai%20Bhawani,%20A-61,%20Phase%201,%20Bawadiya%20Kalan,%20Bhopal&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <!-- Get Directions Floating Button -->
+            <div style="position: absolute; bottom: 20px; left: 20px; z-index: 10;">
+                <a href="https://maps.app.goo.gl/dYci8KTthvQYo7Jd6" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 15px rgba(2, 74, 216, 0.3); padding: 0 24px; text-decoration: none; height: 44px; line-height: 44px; border-radius: var(--rounded-md); font-weight: 600;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="margin-top: -1px; display: inline-block; vertical-align: middle;">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+                    </svg>
+                    <span style="display: inline-block; vertical-align: middle; line-height: 1;">Navigate / Get Directions</span>
+                </a>
+            </div>
         </div>
     </div>
 </div>
